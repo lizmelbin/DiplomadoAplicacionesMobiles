@@ -1,0 +1,12 @@
+E:\VisualEstudio\Proyectos\ProyectoDiplomado\ProyectoDiplomado\ProyectoDiplomado\ProyectoDiplomado\bin\Debug\netstandard2.0\ProyectoDiplomado.deps.json
+E:\VisualEstudio\Proyectos\ProyectoDiplomado\ProyectoDiplomado\ProyectoDiplomado\ProyectoDiplomado\bin\Debug\netstandard2.0\ProyectoDiplomado.dll
+E:\VisualEstudio\Proyectos\ProyectoDiplomado\ProyectoDiplomado\ProyectoDiplomado\ProyectoDiplomado\bin\Debug\netstandard2.0\ProyectoDiplomado.pdb
+E:\VisualEstudio\Proyectos\ProyectoDiplomado\ProyectoDiplomado\ProyectoDiplomado\ProyectoDiplomado\obj\Debug\netstandard2.0\ProyectoDiplomado.csprojAssemblyReference.cache
+E:\VisualEstudio\Proyectos\ProyectoDiplomado\ProyectoDiplomado\ProyectoDiplomado\ProyectoDiplomado\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\VisualEstudio\Proyectos\ProyectoDiplomado\ProyectoDiplomado\ProyectoDiplomado\ProyectoDiplomado\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+E:\VisualEstudio\Proyectos\ProyectoDiplomado\ProyectoDiplomado\ProyectoDiplomado\ProyectoDiplomado\obj\Debug\netstandard2.0\ProyectoDiplomado.csproj.CoreCompileInputs.cache
+E:\VisualEstudio\Proyectos\ProyectoDiplomado\ProyectoDiplomado\ProyectoDiplomado\ProyectoDiplomado\obj\Debug\netstandard2.0\ProyectoDiplomado.AssemblyInfoInputs.cache
+E:\VisualEstudio\Proyectos\ProyectoDiplomado\ProyectoDiplomado\ProyectoDiplomado\ProyectoDiplomado\obj\Debug\netstandard2.0\ProyectoDiplomado.AssemblyInfo.cs
+E:\VisualEstudio\Proyectos\ProyectoDiplomado\ProyectoDiplomado\ProyectoDiplomado\ProyectoDiplomado\obj\Debug\netstandard2.0\XamlC.stamp
+E:\VisualEstudio\Proyectos\ProyectoDiplomado\ProyectoDiplomado\ProyectoDiplomado\ProyectoDiplomado\obj\Debug\netstandard2.0\ProyectoDiplomado.dll
+E:\VisualEstudio\Proyectos\ProyectoDiplomado\ProyectoDiplomado\ProyectoDiplomado\ProyectoDiplomado\obj\Debug\netstandard2.0\ProyectoDiplomado.pdb
