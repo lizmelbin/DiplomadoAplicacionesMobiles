@@ -1,2 +1,11 @@
 .vs/
-ProyectoDiplomado/ProyectoDiplomado.Android/obj/Debug
+ProyectoDiplomado/ProyectoDiplomado/bin/*
+ProyectoDiplomado/ProyectoDiplomado/bin/
+ProyectoDiplomado/ProyectoDiplomado.Android/bin/*
+ProyectoDiplomado/ProyectoDiplomado.Android/bin/Debug/
+ProyectoDiplomado/ProyectoDiplomado.Android/bin/Debug/*
+ProyectoDiplomado/ProyectoDiplomado.iOS/obj/iPhoneSimulator/Debug/
+ProyectoDiplomado/ProyectoDiplomado.Android/obj/Debug/*
+ProyectoDiplomado/ProyectoDiplomado.Android/obj/Debug/
+ProyectoDiplomado/ProyectoDiplomado.Android/obj/.cache/
+ProyectoDiplomado/ProyectoDiplomado/obj/Debug/*

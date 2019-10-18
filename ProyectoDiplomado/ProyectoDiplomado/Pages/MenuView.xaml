@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:views="clr-namespace:ProyectoDiplomado.Views"
+             x:Class="ProyectoDiplomado.Pages.MenuView"
+             xmlns:model="clr-namespace:ProyectoDiplomado.Models"
+             Title="Menu"
+              >
+    <ContentPage.Content>
+
+        <ListView x:Name="menuListview"
+                  x:FieldModifier="public"
+            
+               >
+
+            <ListView.ItemsSource>
+                <x:Array Type="{x:Type model:NavigationItems}">
+                    <model:NavigationItems  Title="Home" Icon="ic_house.png" View="{x:Type views:HomeView}"/>
+                    <model:NavigationItems  Title="Product" Icon="ic_product.png" View="{x:Type views:ProductView}"/>
+                    <model:NavigationItems  Title="Customer" Icon="ic_customer_services.png" View="{x:Type views:CustomerPageView}"/>
+                    <model:NavigationItems  Title="Contacts" Icon="ic_customer_services.png" View="{x:Type views:ContactView}"/>
+                    <model:NavigationItems  Title="Settings" Icon="ic_customer_services.png" View="{x:Type views:SettingsView}"/>
+                </x:Array>
+            </ListView.ItemsSource>
+
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid Padding="5">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="30"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Image Source="{Binding Icon}"/>
+                            <Label Text="{Binding Title}" Grid.Column="1" />
+                            
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+            
+        </ListView>
+        
+        
+    </ContentPage.Content>
+</ContentPage>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProyectoDiplomado.Pages;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -11,7 +12,11 @@ namespace ProyectoDiplomado
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            //MainPage = new MainPage();
+          //   MainPage = new NavigationPage(new NavigationPageView());
+             MainPage = new Pages.MarteDetailPageMainView();
+          //  MainPage = new NavigationPage(new Views.ProductView());
+            //   MainPage = new CarusePageView();
         }
 
         protected override void OnStart()
