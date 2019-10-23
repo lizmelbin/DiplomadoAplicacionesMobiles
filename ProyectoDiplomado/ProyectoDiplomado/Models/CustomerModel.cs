@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ProyectoDiplomado.Models
 {
-    class CustomerModel
+  public  class CustomerModel
     {
         public int Id { get; set; }
 

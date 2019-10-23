@@ -42,7 +42,8 @@
                         <models:ProductModel  Id="1" Name="Logitech Desktop MK120" 
                                          Price="956.23"  ImageUrl="ic_keyboard_product.png" 
                                          LongDescription="Input Device:	Keyboard Pointing Device:Mouse Miscellaneous" 
-                                         ShortDescription="Logitech Desktop MK120 keyboard and mouse set English" InStock="True" IsProductOfTheWeek="False" 
+                                         ShortDescription="Logitech Desktop MK120 keyboard and mouse set English" InStock="True" IsProductOfTheWeek="False"
+                                         EbayLink=""
                         />
 
                          
@@ -50,26 +51,31 @@
                                          Price="89000"  ImageUrl="scaner.jpg" 
                                          LongDescription="Designed to be used in the tough workshop environment. Check out the 4-point fastening main DLC and the 13 tactile keys" 
                                          ShortDescription="G-scan 2 Paquete Kit Diagnóstico Escáner Escanear Herramienta Automotriz y J2534 Gscan 2" InStock="True" IsProductOfTheWeek="False" 
+                                              EbayLink="https://www.ebay.com/itm/G-scan2-bundle-kit-Diagnostic-Scanner-Automotive-Scan-tool-and-J2534-Gscan2/273811366254?_trkparms=5373%3A0%7C5374%3AFeatured"
                         />
                         <models:ProductModel  Id="3" Name="Producto Barba" 
                                          Price="2500"  ImageUrl="barba.jpg" 
                                          LongDescription="Our product stimulates the hair follicle, this means that you must have at least some facial hair even if it is thin, the balm will make them grow and thicken so that you can achieve a thick and rich beard. For the case of those people who have areas without hairs is doubt whether they have or do not have hair follicle so we recommend that you use it at least 8 weeks and if you see hairs come out where there wasn't that means you have follicle and to follow using Spartan you achieve great results, if in 8 weeks no hair was born where there wasn't that means there was no follicle and therefore would not have case to continue with the treatment. " 
                                          ShortDescription="Spartan para barba y bigote Bálsamo de crecimiento con Minoxidi" InStock="True" IsProductOfTheWeek="False" 
+                                              EbayLink="https://www.ebay.com/itm/Spartan-Beard-Mustache-Growth-Balm-with-Minoxidi-Bergamot-Biotin-60ml-2-oz/323902536935?_trkparms=pageci%3A56feaf70-f1ef-11e9-bed1-74dbd18099a4%7Cparentrq%3Ae0cce37116d0a9cc84dae40ffff13575%7Ciid%3A1"
                         />
                         <models:ProductModel  Id="4" Name="Reloj de lujo" 
                                          Price="40000"  ImageUrl="relog.jpg" 
                                          LongDescription="Perfect your daily look with the classic Infantry men's analog watch. This watch features a round face with a matte finish and an analog display. Designed with a stainless steel bracelet link band, it will seamlessly match your particular style. It features a scratch-resistant build for extended use and added durability. Crafted with a water-resistant design, this particular model is perfect for underwater adventures. Get through your everyday activities on time and in comfort with this Infantry watch." 
                                          ShortDescription="Infantry Mens Analog Wrist Watch Luxury Sport Army Black Gray Stainless Steel" InStock="True" IsProductOfTheWeek="True" 
+                                              EbayLink="https://www.ebay.com/p/1854976794?iid=390607626246#ProductDetails"
                         />
                         <models:ProductModel  Id="5" Name="Cargador de bateria" 
                                          Price="600"  ImageUrl="cargadorBateria.jpg" 
                                          LongDescription="This power bank packs a punch! With 20,000mAh you can charge your smartphone up to 10 times. The dual USB ports allows you to charge two devices at once. One port has an output of 2A which allows you to charge larger devices like tablets while the other port is ideal for smartphones. The sleak and stylish design is slim enough to fit into any bag or even your pocket. With a built-in flashlight, you can use it when light is needed." 
                                          ShortDescription="Ultradelgada 20000 mAh Cargador de Batería Externo Portátil Power Bank para Teléfono Celular" InStock="True" IsProductOfTheWeek="False" 
+                                              EbayLink="https://www.ebay.com/itm/Ultra-Thin-20000mAh-Portable-External-Battery-Charger-Power-Bank-for-Cell-Phone/351755095213?_trkparms=pageci%3A56feaf70-f1ef-11e9-bed1-74dbd18099a4%7Cparentrq%3Ae0cce37116d0a9cc84dae40ffff13575%7Ciid%3A1"
                         />
                         <models:ProductModel  Id="6" Name="Cover IPad" 
                                          Price="400"  ImageUrl="ipad1.jpg" 
                                          ShortDescription="Para Apple iPad 2/3/4 360 Giratorio Magnético Pu Funda De Piel Smart Cover Stand" 
                                         LongDescription ="The New iPad Full Body Rotatable case is designed to combine the screen protecting cover with sleeping function and Polycarbonate back cover with a cover that can be fully rotated 360 degrees for multiple viewing angles . One of the more appealing features of this case is the cover itself, which automatically puts your iPad into 'Sleep' mode when covered and then into 'Wake Up' mode when uncovered. The 360 Degree rotating case allows you too quickly and easily setup a stand to prop your iPad 3 for different viewing angles by simply rotating the cover. The PU leather exterior of the case is made from an Eco-Friendly synthetic material for a superior look and durability. The interior is lined with a suede material to provide your iPad with optimal protection inside and out, and the back cover is made with Polycarbonate in order to absorb impact in case you accidentally drop your iPad. Please note this item is made by a 3rd party company, and is NOT made by Apple. This case will also work for the previous generation iPad 2, The New iPad 3 and iPad 4 with Retina Display" InStock="True" IsProductOfTheWeek="False" 
+                                              EbayLink="https://www.ebay.com/itm/For-Apple-iPad-2-3-4-360-Rotating-Magnetic-PU-Leather-Case-Smart-Cover-Stand/301437464043?_trkparms=pageci%3A56feaf70-f1ef-11e9-bed1-74dbd18099a4%7Cparentrq%3Ae0cce37116d0a9cc84dae40ffff13575%7Ciid%3A1"
                         />
 
 

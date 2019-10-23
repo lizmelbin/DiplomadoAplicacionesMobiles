@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ProyectoDiplomado.Models
 {
-    class ProductModel
+    public class ProductModel
     {
         public int Id { get; set; }
         public string Name{ get; set; }
@@ -12,6 +12,7 @@ namespace ProyectoDiplomado.Models
         public string LongDescription{ get; set; }
         public decimal Price{ get; set; }
         public string ImageUrl{ get; set; }
+        public string EbayLink{ get; set; }
         public bool IsProductOfTheWeek{ get; set; }
         public bool InStock{ get; set; }
     }

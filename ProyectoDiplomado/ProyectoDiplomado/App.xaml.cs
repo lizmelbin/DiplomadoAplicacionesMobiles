@@ -13,10 +13,11 @@ namespace ProyectoDiplomado
             InitializeComponent();
 
             //MainPage = new MainPage();
-          //   MainPage = new NavigationPage(new NavigationPageView());
-             MainPage = new Pages.MarteDetailPageMainView();
+            //   MainPage = new NavigationPage(new NavigationPageView());
+            //MainPage = new Pages.MarteDetailPageMainView();
+            MainPage = new PracticasLayouts.Ejercicio15();
           //  MainPage = new NavigationPage(new Views.ProductView());
-            //   MainPage = new CarusePageView();
+          //     MainPage = new Pages.ProductsPage();
         }
 
         protected override void OnStart()

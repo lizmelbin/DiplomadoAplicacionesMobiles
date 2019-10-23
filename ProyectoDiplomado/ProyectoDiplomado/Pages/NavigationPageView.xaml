@@ -6,27 +6,21 @@
 
     <StackLayout>
 
-        <Button Text="Home"
+        <!--<Button Text="Home"
                 x:Name="btnNavigationHome"
                 Clicked="menuItemClicked"
                 >
-            
         </Button>
-
         <Button Text="Products"
                 x:Name="btnNavigationProduct"
                 Clicked="menuItemClicked"
                 >
-
         </Button>
-
         <Button Text="Customers"
                 x:Name="btnNavigationCostomer"
                 Clicked="menuItemClicked"
                 >
-
         </Button>
-
         <Button Text="Contact"
                 x:Name="btnNavigationContact"
                 Clicked="menuItemClicked"
@@ -39,7 +33,7 @@
                 Clicked="menuItemClicked"
                 >
 
-        </Button>
+        </Button>-->
 
     </StackLayout>
     

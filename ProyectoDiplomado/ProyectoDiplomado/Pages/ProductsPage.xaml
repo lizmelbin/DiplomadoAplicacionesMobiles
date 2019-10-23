@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoDiplomado.Pages.ProductsPage">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Coral">
+            <Image Source="" x:Name="image" HorizontalOptions="CenterAndExpand"  />
+            <Button x:Name="banadir" Text="{Binding Source=producto.}" FontSize="Subtitle" HorizontalOptions="End" BackgroundColor="RoyalBlue"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="200" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Label Grid.Row="0" Grid.Column="0" x:Name="lNombreProducto" Text="Nombre preducto" FontSize="Medium" FontAttributes="Bold" >
+                    
+                </Label>
+
+                <Label Grid.Row="0" Grid.Column="1" x:Name="lPrecioProducto" Text="Precio Producto" HorizontalOptions="End" />
+            </Grid>
+            <Label x:Name="lShortDescription" Text="Description short"/>
+            <Label x:Name="lLongDescription" Text="Long Description" BackgroundColor="Yellow" VerticalOptions="FillAndExpand"/>
+            <Label Text="@2019 Diplomado App Mobiles" VerticalOptions="End" HorizontalOptions="Center"/>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
