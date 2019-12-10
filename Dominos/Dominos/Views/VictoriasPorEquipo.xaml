@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Dominos.Views.VictoriasPorEquipo">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid x:Name="grid" >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40"  />
+                  
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition  Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                 <TableView Intent="Settings" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"  >
+                    <TableRoot  >
+                        <TableSection Title="Equipo" x:Name="nombreEquipos">
+
+                        </TableSection>
+                    </TableRoot>
+                </TableView>
+
+                <TableView Intent="Settings" Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="2" >
+                    <TableRoot>
+                        <TableSection Title="Victorias" x:Name="victoriasPorEquipo">
+
+                        </TableSection>
+                    </TableRoot>
+                </TableView>
+            </Grid>
+            <Button Text="Nuevo juego"  Clicked="Button_Clicked"></Button>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

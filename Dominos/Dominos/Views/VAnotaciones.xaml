@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Dominos.Views.VAnotaciones">
+    <StackLayout x:Name="layout">
+    <Grid x:Name="grid"  VerticalOptions="StartAndExpand">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"  />
+            <RowDefinition Height="*"  />
+            <RowDefinition Height="45" />
+            
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition  Width="*" />
+            <ColumnDefinition Width="*" />
+            
+        </Grid.ColumnDefinitions>
+
+        <Label Text="{Binding Texto} " x:Name="lNombreEquipo1" FontSize="Large" VerticalOptions="CenterAndExpand"  Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"/>
+        <Label Text="{Binding Texto}" x:Name="lNombreEquipo2"  FontSize="Large" VerticalOptions="CenterAndExpand" Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="2"/>
+
+        <TableView Intent="Settings" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" VerticalOptions="FillAndExpand" >
+            <TableRoot  >
+                <TableSection Title="Puntos" x:Name="puntosEquipo1">
+
+                </TableSection>
+            </TableRoot>
+        </TableView>
+
+            <TableView Intent="Settings" Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="2"  VerticalOptions="FillAndExpand">
+            <TableRoot>
+                <TableSection Title="Puntos" x:Name="puntosEquipo2">
+
+                </TableSection>
+            </TableRoot>
+        </TableView>
+
+
+        <Entry Keyboard="Numeric" Text="" BackgroundColor="CornflowerBlue"  MaxLength="3"  Completed="tb_KeyDown"
+               x:Name="agregarEquipo1" Grid.ColumnSpan="2"
+       Placeholder="Sumar"  Grid.Row="2" Grid.Column="0" VerticalOptions="End"
+       />
+        <!--<Button Text="+" x:Name="BagregarEquipo1" Image="icon"
+        Font="Large" 
+        
+                BackgroundColor="White"   Grid.Row="2" Grid.Column="1" Clicked="Button_Clicked"
+        />-->
+
+        <Entry Keyboard="Numeric" Text=""
+               x:Name="agregarEquipo2"
+               Placeholder="Sumar"
+                BackgroundColor="Red"
+               Grid.Row="2"
+               Grid.Column="2"
+               Grid.ColumnSpan="2"
+               MaxLength="3" 
+               Completed="tb_KeyDown"
+                VerticalOptions="End"
+                
+       />
+        
+        <!--<Button Text="+" 
+                Image="background.png"
+                x:Name="BagregarEquipo2"
+                Clicked="Button_Clicked"
+                Font="Large" 
+                BackgroundColor="Red"   
+                Grid.Row="2" 
+                Grid.Column="3"
+                 
+       
+      <Button  Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" Text="Revancha" x:Name="bRevancha"></Button>
+      <Button  Grid.Row="4" Grid.Column="2" Grid.ColumnSpan="2" Text="Reiniciar" x:Name="bReiniciar"></Button>
+ />-->
+    </Grid>
+        <Button x:Name="bAds" Text="ADS" VerticalOptions="EndAndExpand"/>
+    </StackLayout>
+</ContentPage>
